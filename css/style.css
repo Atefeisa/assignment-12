@@ -1,0 +1,125 @@
+:root{
+    scroll-behavior: auto;
+}
+
+    #home {
+    
+    background-image: linear-gradient(rgba(246, 3, 3, 0.484), rgba(224, 0, 0, 0.484)), url(../images/events-heavenly-header.jpg);
+        width: 100%;
+        height:700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+    
+    }
+
+
+    #content  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+     }
+
+    .sidebar {
+         width: 20%; 
+        height: 100vh;
+    
+        position: fixed;
+        left: -11.5%;
+        top: 0;
+        z-index: 4853138;
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .innerbox a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        transition: all .5s; 
+        
+
+    }
+
+    .innerbox a:hover {
+        color:  rgba(214, 46, 51 , 0.4);
+    }
+
+    .innerbox i {
+        top: 30px;
+        right:  30px;
+        cursor: pointer;
+
+
+    }
+
+
+
+
+
+
+ #sliderDown h3
+{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+
+#sliderDown div
+{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+     
+}
+
+
+
+#sliderDown .first{
+    display:block;
+}
+
+
+
+#count{
+    background-image: linear-gradient(rgba(246, 3, 3, 0.632), rgba(224, 0, 0, 0.484)), url(../images/invitation-2508607__340.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.counter{
+    
+    border: 4px solid #FFF;
+    font-size: 40px;
+    padding:60px ;
+    margin-top:5rem;
+}
+
+.social a{
+text-decoration: none;
+color: rgba(0, 0, 0, 0.6);
+}
+
+.social i {
+    text-align: center;
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 1.5rem;
+
+
+
+}
+
+.social i:hover{
+color: white;
+background-color: rgb(136, 0, 0);
+}
